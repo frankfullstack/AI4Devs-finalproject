@@ -52,4 +52,5 @@ CityFix es una plataforma para comunicar y gestionar incidencias en espacios pú
   - Trabajar en ramas de propósito concreto cuando corresponda; no modificar directamente ramas protegidas.
   - Revisar los cambios antes de integrarlos.
   - Commits claros y coherentes, un propósito por commit.
-  - No realizar operaciones destructivas ni publicar cambios remotos sin autorización o sin que formen parte de un workflow aprobado explícitamente.
+  - Los commits, push, Pull Requests y merges los realiza exclusivamente el desarrollador. El agente puede inspeccionar Git, mostrar diffs y proponer mensajes de commit, pero no ejecuta esas operaciones, aunque se le soliciten durante una tarea ordinaria.
+  - No realizar operaciones destructivas sin autorización explícita.
