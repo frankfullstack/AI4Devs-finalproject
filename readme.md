@@ -17,13 +17,19 @@
 
 ### **0.2. Nombre del proyecto:**
 
+CityFix
+
 ### **0.3. Descripción breve del proyecto:**
+
+CityFix es una plataforma, actualmente en fase de definición, para comunicar y gestionar incidencias en espacios públicos de España (baches, farolas averiadas, aceras dañadas, limpieza, contenedores, parques o señalización), facilitando su aviso, seguimiento y resolución entre ciudadanos, gestores, operarios y administradores.
 
 ### **0.4. URL del proyecto:**
 
 > Puede ser pública o privada, en cuyo caso deberás compartir los accesos de manera segura. Puedes enviarlos a [alvaro@lidr.co](mailto:alvaro@lidr.co) usando algún servicio como [onetimesecret](https://onetimesecret.com/).
 
 ### 0.5. URL o archivo comprimido del repositorio
+
+https://github.com/frankfullstack/AI4Devs-finalproject
 
 > Puedes tenerlo alojado en público o en privado, en cuyo caso deberás compartir los accesos de manera segura. Puedes enviarlos a [alvaro@lidr.co](mailto:alvaro@lidr.co) usando algún servicio como [onetimesecret](https://onetimesecret.com/). También puedes compartir por correo un archivo zip con el contenido
 

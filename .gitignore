@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editores e IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Temporales y logs
+*.log
+*.tmp
+
+# Configuración local de Claude Code
+.claude/settings.local.json
