@@ -42,11 +42,29 @@ https://github.com/frankfullstack/AI4Devs-finalproject
 
 ### **1.1. Objetivo:**
 
-> Propósito del producto. Qué valor aporta, qué soluciona, y para quién.
+CityFix busca facilitar que los avisos ciudadanos sobre espacios públicos de España se registren con una ubicación confirmada, se revisen, se asignen y se resuelvan, con seguimiento para quien avisa y respetando su privacidad.
+
+La idea parte de una hipótesis por validar: los avisos urbanos pueden quedar dispersos en distintos canales, tener ubicaciones imprecisas, duplicarse o carecer de un seguimiento claro. No se presupone que ninguna administración pública utilice la plataforma ni se afirman beneficios medidos.
+
+**Para quién:** ciudadanos, que avisan y siguen sus incidencias; gestores municipales, que las revisan y supervisan; operarios, que ejecutan y documentan los trabajos; y administradores, que gestionan la plataforma o su ámbito municipal.
+
+**Estado:** el proyecto está en fase de definición. Los requisitos de producto están recogidos en [`docs/PRD.md`](docs/PRD.md), aprobado como base funcional con cuestiones abiertas. No hay ninguna funcionalidad implementada ni verificada.
 
 ### **1.2. Características y funcionalidades principales:**
 
-> Enumera y describe las características y funcionalidades específicas que tiene el producto para satisfacer las necesidades identificadas.
+Capacidades **previstas** de CityFix. Ninguna está implementada; el detalle y su estado de decisión se encuentran en [`docs/PRD.md`](docs/PRD.md).
+
+- **Territorio:** catálogo de todos los municipios de España, habilitación operativa municipal y validación de la ubicación confirmada por el ciudadano.
+- **Avisos y seguimiento:** registro de incidencias por ciudadanos autenticados y seguimiento de las propias.
+- **Tramitación:** revisión, clasificación, priorización, asignación y resolución por gestores y operarios, con historial y reapertura.
+- **Publicación y privacidad:** consulta pública de incidencias publicadas, revisión del gestor antes de publicar y protección de la identidad, las fotografías y las ubicaciones.
+- **Duplicados:** sugerencia de avisos cercanos y vinculación decidida por el gestor.
+- **Notificaciones:** centro de notificaciones, push y correo configurables, y actualizaciones en tiempo real.
+- **Gestión municipal:** categorías, dashboard con listados, filtros, mapas, métricas y exportaciones autorizadas, y administración de usuarios y configuración.
+- **IA opcional:** propuestas supervisadas por personas, con credenciales de proveedores de IA configuradas centralmente y presupuesto global compartido. CityFix debe funcionar íntegramente sin IA.
+- **Datos:** conservación diferenciada, supresión y anonimización cuando procedan.
+
+Las cuestiones pendientes de decidir figuran en la sección 16 del PRD.
 
 ### **1.3. Diseño y experiencia de usuario:**
 

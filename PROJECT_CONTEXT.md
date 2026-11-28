@@ -38,7 +38,7 @@ El producto completo contempla, sin definir todavía sus requisitos detallados:
 - Actualizaciones en tiempo real y notificaciones relevantes.
 - Dashboard municipal con listados, filtros, mapas, métricas, administración y exportaciones autorizadas.
 - Procesamiento convencional de incidencias mediante reglas, búsqueda de proximidad y revisión humana.
-- Agentes de IA **opcionales** para proponer clasificación, posibles duplicados, prioridad y asignación; configuración de proveedores, modelos, claves y costes.
+- Agentes de IA **opcionales** para proponer clasificación, posibles duplicados, prioridad y asignación; configuración centralizada de proveedores, modelos y credenciales de proveedores de IA, y presupuesto global compartido.
 - Seguridad, privacidad, accesibilidad, auditoría, pruebas y una experiencia visual profesional en web y móvil.
 
 Estas capacidades definen la **visión global**, no el contenido que ya está desarrollado ni un compromiso de entregarlas todas a la vez. El trabajo se ordenará incrementalmente por valor, riesgo y dependencias, sin eliminar el alcance global por defecto.
@@ -65,13 +65,13 @@ Se parte de las siguientes **preferencias y restricciones tecnológicas**, cuya 
 | Identidad y archivos | Supabase Auth y Supabase Storage |
 | Mapas y geocodificación | Mapbox |
 | Datos administrativos | INE e IGN/CNIG como referencias |
-| IA opcional | Anthropic API y OpenRouter mediante BYOK |
+| IA opcional | Anthropic API y OpenRouter, con credenciales de proveedores de IA configuradas centralmente |
 
 Se prefiere un **monorepo con backend monolítico modular**, aplicando arquitectura hexagonal y principios de Clean Architecture de forma pragmática en backend y clientes. El dominio debe estar separado de frameworks y proveedores sin crear abstracciones innecesarias. No se buscan microservicios ni infraestructura adicional salvo necesidad justificada.
 
 ## 7. Aspectos que debemos descubrir y decidir
 
-Antes de cerrar los requisitos y el diseño, hay que concretar, entre otros: política de municipios no habilitados; permisos sobre uno o varios municipios; visibilidad pública e interna; reglas de clasificación, asignación, estados, reapertura y cierre; tratamientos de duplicados y fotografías; manejo de límites territoriales; notificaciones; comportamiento y revisión de la IA; configuración BYOK y límites de coste; retención de datos y despliegue.
+Antes de cerrar los requisitos y el diseño, hay que concretar, entre otros: política de municipios no habilitados; permisos sobre uno o varios municipios; visibilidad pública e interna; reglas de clasificación, asignación, estados, reapertura y cierre; tratamientos de duplicados y fotografías; manejo de límites territoriales; notificaciones; comportamiento y revisión de la IA; configuración centralizada de las credenciales de proveedores de IA y límites de coste; retención de datos y despliegue.
 
 Estas cuestiones **no están decididas por este contexto**. Se resolverán mediante discovery, PRD y decisiones arquitectónicas, distinguiendo decisiones aprobadas, propuestas y supuestos.
 
