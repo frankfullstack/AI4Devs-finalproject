@@ -7,7 +7,7 @@ Son instrucciones para el agente; no garantizan técnicamente el cumplimiento. L
 - No escribir en el repositorio claves, tokens, contraseñas ni cadenas de conexión reales, ni en código, documentación, tests o ejemplos. Usar marcadores evidentes (`<API_KEY>`) y variables de entorno.
 - No leer, mostrar ni copiar archivos de credenciales (`.env`, claves privadas) salvo que el desarrollador lo pida expresamente.
 - En ejemplos, fixtures y pruebas, usar datos sintéticos o anonimizados. No incluir datos personales reales de ciudadanos, gestores u operarios.
-- Las credenciales BYOK de proveedores de IA pertenecen a quien las aporta: no registrarlas en logs, respuestas de error, auditoría ni mensajes de excepción, y proponer almacenarlas cifradas y enmascaradas al mostrarlas.
+- Las credenciales de proveedores de IA configuradas centralmente las administra el administrador global (no existe BYOK individual ni municipal): no registrarlas en logs, respuestas de error, auditoría ni mensajes de excepción, no exponerlas en clientes ni repositorios, y proponer almacenarlas cifradas y enmascaradas al mostrarlas.
 
 ## Fotografías y ubicaciones
 
